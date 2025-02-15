@@ -3,7 +3,16 @@ package com.example.java_git_demo;
 public class User {
     private int id;
     private String name;
-    //private String email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    private String email;
 
     public void setId(int String){
         this.id=id;
@@ -19,5 +28,9 @@ public class User {
 
     public int getId() {
         return id;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
