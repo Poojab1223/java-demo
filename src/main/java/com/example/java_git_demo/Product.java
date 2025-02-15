@@ -3,9 +3,18 @@ package com.example.java_git_demo;
 public class Product {
     int id;
     String name;
+    int price;
 
     public int getId() {
         return id;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public void setId(int id) {
